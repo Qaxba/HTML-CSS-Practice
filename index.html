@@ -1,51 +1,99 @@
 <html>
-<head>
-<title>
-    WEB PRAROZ
-</title>
+    <head>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" type= "text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-   <header>
-<div class="main">
-<div class="logo">
-    <img src="image/logo-removebg-preview.png">
+    </head>
+    <body>
+<header>
+
+<div class="header-container">
+    <div class="logo">
+     <img src="images/3.webp" alt="Mr web logo" style="max-width: 95px">    
+    </div>
+   
+    <nav class="nav>">
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+<div class="cta">
+    <a href="#" class="cta-button">Get started</a>
 </div>
-<ul>
-<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
-<li> <a href="#">About</a></li>
-<li> <a href="#">Dessert</a></li>
-<li> <a href="#">Appertizer</a></li>
-<li> <a href="#">Pasta</a></li>
-<li> <a href="#">Salad</a></li>
-<li> <a href="#">Burger</a></li>
-<li> <a href="#">Pizza</a></li>
-<li> <a href="#"><i class="fa fa-caret-down"></i>More Recipies</a>
-<div class="sub-menu">
-    <ul>
-    <li> <a href="#">Sandwich</a>
-         <a href="#">Cookies</a>
-    </li>
-    </ul>
-    </li>
-</div>
-</ul>
 </div>
 
-<div class="title">
-    <h1>HOMIE RECIPES</h1>
-</div>
-<div class="button">
-    
-    <a href="#" class="btn"> WATCH VIDEOS </a>
-    <a href="#" class="btn"> BASIC SKILLS </a>
-    <a href="#" class="btn"> LEARN MORE </a>
+</header>
+<section class="hero">
+    <div class="hero-content">
+        <h1> Welcome to Mr Web Designer</h1>
+        <p> Your one-stop solution for web design and development </p>
+        <a href="#" class="cta-button">Learn More</a>
+    </div>
+
+</section>
+
+
+<div class="flex-container">
+    <div class="about-us">
+        <img src="images/1.png" alt="Mr web designer in dublin Ireland" style="max-width: 95%;">
+    </div>
+    <div class="about-us">
+<h2 style="color: black;">Hi, i'm David ......</h2>
+<p> I am David , a web designer based in dublin, Ireland <br>
+     Hi, I’m David, a passionate web designer dedicated to creating clean, responsive, and user-friendly websites. I believe that great design is not just about looks—it’s about functionality, experience, and telling a story through code and creativity. <br>
+    <br>With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through thoughtful layouts, intuitive navigation, and attention to detail. My goal is to build websites that not only impress visually but also perform seamlessly across all devices.</p>
+    </div>
+
 
 </div>
-   </header> 
+
+<div class="flex-container">
+<div class="mydivname">
+    <h2>Website Design</h2>
+   <p>i build a website design which will help user to customize and exprole more, to learn and be happy</p> 
+</div>
+<div class="mydivname">
+    <h2>E-Commerce Sites</h2>
+   <p>i build a website design which will help user to customize and exprole more, to learn and be happy</p> 
+</div>
+    <div class="mydivname">
+    <h2>Maintainance</h2>
+   <p>i build a website design which will help user to customize and exprole more, to learn and be happy</p> 
+</div>
+</div>
+<div class="flex-container contact-wrapper">
+    <div class="contact-info">
+    <h2>Get in touch</h2>
+    <p><b>Mr web designer</b></p>
+    <p>1234 Web St, Dublin, Ireland</p>
+    <p>Phone:+353 2345667</p>
+    <p>Email: <a href="mailto:Hellow@email.com">Hellow@email.com</a></p>
+ </div>
+ <div class="contact-form">
+    <h2>Send us a message</h2>
+    <form action="https://formsubmit.co/Hellow@email.com" method="post">
+        <label for="name">Name:</label> <br>
+        <input type="text" id="name" name="name" required> <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label> <br>
+        <textarea id="message" name="message" rows="4" required></textarea> <br><br>
+
+        <button type="submit"><b>Send Message</b></button>
+    </form>
+</div>
+ 
+</div>
 
 
-
-</body>
+<footer>
+    <center>
+        <p> &copy; <span id="year"> </span> Your company Name. All rights reserved</p>
+    </center>
+</footer>
+<script> document.getElementById('year').textContent = new Date () .getFullYear();
+</script>
+    </body>
 </html>
